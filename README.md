@@ -26,4 +26,4 @@ The code is organized as follows:
 ## Ackonwledgement
 We are thankful for the open source of **[NeuralHolography](https://github.com/computational-imaging/neural-holography)**, 
 **[HoloEncoder](https://github.com/THUHoloLab/Holo-encoder)**,and **[HoloEncoder-Pytorch-Version](https://github.com/flyingwolfz/holoencoder-python-version)**.
-These are very helpful in our work.
+These works are very helpful for our research.

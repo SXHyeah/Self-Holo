@@ -70,7 +70,6 @@ for i in range(1):
         print(" PSNR:{}, SSIM:{}".format(psnr_val, ssim_val))
         # save reconstructed image in srgb domain
         recon = srgb_lin2gamma(np.clip(recon ** 2, 0.0, 1.0))
-        recon = (recon - recon.min()) / (recon.max() - recon.min())
         img_name = combine(all_name, channel, '.png')
         path = os.path.join(recon_path, img_name)
         imwrite(recon, path)
@@ -101,7 +100,6 @@ for i in range(1):
             print("In:{}, PSNR:{}, SSIM:{}".format(image_name[j], psnr_val, ssim_val))
             # save reconstructed image in srgb domain
             recon = srgb_lin2gamma(np.clip(recon ** 2, 0.0, 1.0))
-            recon = (recon - recon.min())/(recon.max()-recon.min())
             img_name = combine(all_name, channel, image_name[j], '.png')
             path = os.path.join(recon_path, img_name)
             imwrite(recon, path)

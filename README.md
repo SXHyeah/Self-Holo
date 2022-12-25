@@ -1,7 +1,7 @@
 # Self-Holo
 Diffraction model-informed neural network for unsupervised layer-based computer-generated holography.<br>
 ### [Paper](https://doi.org/10.1364/OE.474137)
-X. Shui, H. Zheng, X. Xia, F. Yang, W. Wang, and Y. Yu, “Diffraction model-informed neural network for unsupervised <br> 
+X. Shui, H. Zheng, X. Xia, F. Yang, W. Wang, and Y. Yu, “Diffraction model-informed neural network for unsupervised 
 layer-based computer-generated holography,” Opt. Express 35(25), (2022). 
 
 ## Dataset

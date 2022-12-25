@@ -1,8 +1,8 @@
 # Self-Holo
 Diffraction model-informed neural network for unsupervised layer-based computer-generated holography.<br>
 ### [Paper](https://doi.org/10.1364/OE.474137)
-X. Shui, H. Zheng, X. Xia, F. Yang, W. Wang, and Y. Yu, “Diffraction model-informed neural network for unsupervised 
-layer-based computer-generated holography,” Opt. Express 35(25), (2022). 
+X. Shui, H. Zheng, X. Xia, F. Yang, W. Wang, and Y. Yu, “Diffraction model-informed neural network for <br> 
+unsupervised layer-based computer-generated holography,” Opt. Express 35(25), (2022). 
 
 ## Dataset
 The RGB-D datasets are from **[TensorHolography](https://github.com/liangs111/tensor_holography)**.

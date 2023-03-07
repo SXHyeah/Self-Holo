@@ -74,14 +74,14 @@ class Up(nn.Module):
 class HoloEncoder(nn.Module):
     def __init__(self):
         super().__init__()
-        self.netdown1 = Down(2,16)
-        self.netdown2 = Down(16,32)
-        self.netdown3 = Down(32,64)
-        self.netdown4 = Down(64,96)
-        self.netup0 = Up(96,64)
-        self.netup1 = Up(64,32)
-        self.netup2 = Up(32,16)
-        self.netup3 = Up(16,1)
+        self.netdown1 = Down(2,32)
+        self.netdown2 = Down(32,64)
+        self.netdown3 = Down(64,128)
+        self.netdown4 = Down(128,160)
+        self.netup0 = Up(160,128)
+        self.netup1 = Up(128,64)
+        self.netup2 = Up(64,32)
+        self.netup3 = Up(32,1)
         self.norm = torch.nn.BatchNorm2d(1)
         self.tanH = torch.nn.Hardtanh(-math.pi, math.pi)
 

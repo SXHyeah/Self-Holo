@@ -19,7 +19,9 @@ The code is organized as follows:
 * ```propagation_ASM.py``` contains the angular spectrum method.
 * ```perceptualloss.py``` contains mseloss and perceptualloss.
 * ```predict.py``` predicts 2D holograms or 3D holograms.
-*  ```utils.py``` contains utility functions. 
+*  ```utils.py``` contains utility functions.
+
+We recommend that the readers to experiment with different upsampling approaches or different CNN frameworks<br> to further improve the quality of the images.
 
 ## Running the test
  ```
